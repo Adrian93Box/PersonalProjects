@@ -8,12 +8,17 @@
 import SwiftUI
 
 struct MenuListView: View {
+    
+    // This variable will hold the list of all pizzas for the menu, it is being pulled from the MenuModal.swift file
+    var menuList = MenuModel().menu
+    
     var body: some View {
         VStack {
             ListHeaderView(text: "Menu")
             
-            List (/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
-                MenuRowView()
+            List (menuList) { item in
+                MenuRowView(menuItem: item)
+                    .listRowInsets(EdgeInsets())
             }
         }
     }

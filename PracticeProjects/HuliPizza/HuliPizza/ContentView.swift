@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
+    // Note to self - When state variables are updated, it will automatically trigger a screen refresh
     @State var isMenuDisplayed : Bool = true
     
     var body: some View {
@@ -17,6 +17,7 @@ struct ContentView: View {
             ContentHeaderView()
                 .layoutPriority(2)
             
+            // The state variable above is toggled when the button is pressed; refreshing the screen and menu
             Button(action: {self.isMenuDisplayed.toggle()}) {
                 PageTitleView(title : "Order Pizza", isDisplayingOrders: isMenuDisplayed)
             }

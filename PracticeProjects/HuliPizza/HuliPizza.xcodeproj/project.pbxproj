@@ -25,6 +25,9 @@
 		F874893E270268CA00285283 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874893D270268CA00285283 /* HistoryView.swift */; };
 		F874894027026B5500285283 /* ListHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F874893F27026B5500285283 /* ListHeaderView.swift */; };
 		F8C0F48B270287E000323EF2 /* SelectedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C0F48A270287E000323EF2 /* SelectedImageView.swift */; };
+		F8E9084C270351A900E6EB33 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E90849270351A900E6EB33 /* OrderModel.swift */; };
+		F8E9084D270351A900E6EB33 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E9084A270351A900E6EB33 /* HistoryModel.swift */; };
+		F8E9084E270351A900E6EB33 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E9084B270351A900E6EB33 /* MenuModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +51,9 @@
 		F874893D270268CA00285283 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		F874893F27026B5500285283 /* ListHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListHeaderView.swift; sourceTree = "<group>"; };
 		F8C0F48A270287E000323EF2 /* SelectedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedImageView.swift; sourceTree = "<group>"; };
+		F8E90849270351A900E6EB33 /* OrderModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OrderModel.swift; path = "../../../../../../Desktop/Exercise Files/04/03/OrderModel.swift"; sourceTree = "<group>"; };
+		F8E9084A270351A900E6EB33 /* HistoryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HistoryModel.swift; path = "../../../../../../Desktop/Exercise Files/04/03/HistoryModel.swift"; sourceTree = "<group>"; };
+		F8E9084B270351A900E6EB33 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuModel.swift; path = "../../../../../../Desktop/Exercise Files/04/03/MenuModel.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +124,9 @@
 		F874892127020CA400285283 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				F8E9084A270351A900E6EB33 /* HistoryModel.swift */,
+				F8E9084B270351A900E6EB33 /* MenuModel.swift */,
+				F8E90849270351A900E6EB33 /* OrderModel.swift */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -223,15 +232,18 @@
 			files = (
 				F874890D2701FED100285283 /* AppDelegate.swift in Sources */,
 				F874893A270261B200285283 /* HistoryRowView.swift in Sources */,
+				F8E9084E270351A900E6EB33 /* MenuModel.swift in Sources */,
 				F874892927020E8500285283 /* MenuListView.swift in Sources */,
 				F874893527025A4500285283 /* PageTitleView.swift in Sources */,
 				F874893E270268CA00285283 /* HistoryView.swift in Sources */,
 				F874892727020D8500285283 /* OrderListView.swift in Sources */,
 				F874892B27020F4200285283 /* ContentHeaderView.swift in Sources */,
 				F8C0F48B270287E000323EF2 /* SelectedImageView.swift in Sources */,
+				F8E9084C270351A900E6EB33 /* OrderModel.swift in Sources */,
 				F874894027026B5500285283 /* ListHeaderView.swift in Sources */,
 				F87489312702599A00285283 /* RatingsView.swift in Sources */,
 				F874892F2702581F00285283 /* MenuRowView.swift in Sources */,
+				F8E9084D270351A900E6EB33 /* HistoryModel.swift in Sources */,
 				F874890F2701FED100285283 /* SceneDelegate.swift in Sources */,
 				F874893C2702680D00285283 /* HistoryListView.swift in Sources */,
 				F874892D2702564F00285283 /* OrderRowView.swift in Sources */,
@@ -376,13 +388,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3VM7J249W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSoft.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -396,13 +409,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"HuliPizza/Preview Content\"";
+				DEVELOPMENT_TEAM = Z3VM7J249W;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = HuliPizza/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.HuliPizza;
+				PRODUCT_BUNDLE_IDENTIFIER = com.GSoft.HuliPizza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
